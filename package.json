@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://maximedina7.github.io/nuevoproyecto2",
+  "homepage": "https://maximedina7.github.io/nuevoproyecto",
 
      "scripts": {
       "dev": "vite",
