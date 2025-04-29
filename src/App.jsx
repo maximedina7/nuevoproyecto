@@ -4,7 +4,7 @@ import Contador from './components/Contador';
 import Emojis from './components/Emojis';
 import GeneradorColores from './components/GeneradorColores';
 import Tarjeta from './components/Tarjeta';
-
+import viteLogo from './assets/vite.svg';
 
 function App() {
   const [count, setCount] = useState(0)
