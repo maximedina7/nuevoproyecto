@@ -1,12 +1,18 @@
-# React + Vite
+# Nuevoproyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto básico de React configurado con Vite, que incluye reemplazo de módulos en caliente (HMR) y reglas de ESLint para asegurar la calidad del código. Proporciona un entorno de desarrollo rápido y eficiente para aplicaciones React.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Configuración de React con Vite
+- Reemplazo de módulos en caliente (HMR) para un desarrollo ágil
+- Configuración de ESLint para mejorar la calidad del código
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clona el repositorio e instala las dependencias:
+
+```bash
+git clone https://github.com/maximedina7/nuevoproyecto.git
+cd nuevoproyecto
+npm install
