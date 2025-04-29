@@ -1,7 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Adivinanza from './components/Adivinanza';
+import Contador from './components/Contador';
+import Emojis from './components/Emojis';
+import GeneradorColores from './components/GeneradorColores';
+import Tarjeta from './components/Tarjeta';
+
 
 function App() {
   const [count, setCount] = useState(0)
