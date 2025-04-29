@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/nuevoproyecto2/', // o '/' si estás en la raíz del dominio
+  plugins: [react()],
+  base: process.env.NODE_ENV === 'production' ? '/nuevoproyecto/' : '/',
   build: {
     outDir: 'docs',
   },
 });
-
